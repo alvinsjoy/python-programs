@@ -34,5 +34,4 @@ class TempConverter(EasyFrame):
         self.fField.setNumber(f)
 
 # Run the application
-if __name__ == '__main__':
-    TempConverter().mainloop()
+TempConverter().mainloop()
